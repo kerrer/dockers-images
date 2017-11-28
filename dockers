@@ -1,0 +1,49 @@
+docker  quay.io/coreos/hyperkube:v1.5.4_coreos.0
+docker  gcr.io/google_containers/kubedns-amd64:1.9
+docker  gcr.io/google_containers/kube-dnsmasq-amd64:1.4
+docker  gcr.io/google_containers/dnsmasq-metrics-amd64:1.0
+docker  gcr.io/google_containers/exechealthz-amd64:1.2
+docker  gcr.io/google_containers/cluster-proportional-autoscaler-amd64:1.0.0 
+docker  gcr.io/google_containers/heapster:v1.2.0
+docker  gcr.io/google_containers/addon-resizer:1.6 
+docker  gcr.io/google_containers/kubernetes-dashboard-amd64:v1.5.0
+docker  quay.io/calico/node:v0.23.0
+docker  quay.io/calico/cni:v1.5.2 
+docker  gcr.io/calico/kube-policy-controller:v0.4.0
+
+docker  gcr.io/google-samples/gb-frontend:v4
+docker  gcr.io/google_containers/redis:e2e
+docker  gcr.io/google_samples/gb-redisslave:v1
+
+docker  gcr.io/google_containers/kube-apiserver-amd64:v1.6.0
+docker  gcr.io/google_containers/kube-controller-manager-amd64:v1.6.0
+docker  gcr.io/google_containers/kube-scheduler-amd64:v1.6.0
+docker  gcr.io/google_containers/kube-proxy-amd64:v1.6.0
+docker  gcr.io/google_containers/etcd-amd64:3.0.17
+docker  gcr.io/google_containers/pause-amd64:3.0
+docker  gcr.io/google_containers/k8s-dns-sidecar-amd64:1.14.4
+docker  gcr.io/google_containers/k8s-dns-kube-dns-amd64:1.14.4
+docker  gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.4
+
+docker  gcr.io/google-containers/kube-addon-manager:v6.4-beta.2
+docker  gcr.io/kubernetes-helm/tiller:v2.5.0
+
+docker  gcr.io/google_containers/echoserver:1.4
+docker  gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.1
+
+docker quay.io/deis/registry:v2.4.2
+docker quay.io/deis/postgres:v2.5.4
+docker quay.io/deis/builder:v2.12.0
+docker quay.io/deis/minio:v2.3.6
+docker quay.io/deis/fluentd:v2.10.0
+docker quay.io/deis/influxdb:v2.10.1
+docker quay.io/deis/redis:v2.2.7
+docker quay.io/deis/workflow-manager:v2.5.1
+docker quay.io/deis/logger:v2.4.4
+docker quay.io/deis/nsq:v2.2.8
+docker quay.io/deis/telegraf:v2.10.1
+docker quay.io/deis/grafana:v2.10.1
+docker quay.io/deis/controller:v2.16.0
+docker quay.io/deis/nsq:v2.2.8
+docker quay.io/deis/router:v2.13.0
+docker quay.io/deis/registry-proxy:v1.4.0
